@@ -1,0 +1,32 @@
+name: BandUp
+options:
+  bundleIdPrefix: com.ananda
+  deploymentTarget:
+    macOS: "26.0"
+packages:
+  BandUpCore:
+    path: .
+targets:
+  BandUp:
+    type: application
+    platform: macOS
+    sources: [Sources/BandUpApp]
+    dependencies:
+      - package: BandUpCore
+    info:
+      path: Sources/BandUpApp/Info.plist
+      properties:
+        CFBundleDisplayName: BandUp
+        LSApplicationCategoryType: public.app-category.education
+        NSMicrophoneUsageDescription: BandUp records your spoken IELTS answers so it can transcribe them and give feedback.
+        NSSpeechRecognitionUsageDescription: BandUp turns your spoken answers into text on this Mac to give feedback.
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ananda.BandUp
+        MARKETING_VERSION: "0.1"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        ENABLE_HARDENED_RUNTIME: NO
+        GENERATE_INFOPLIST_FILE: NO

@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249D21E4E319B3EACC0D5C41 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E3AB4C9FD0D898CCBDE8FA /* MainView.swift */; };
+		494A96D4BC0FBF430B955DFE /* SpeakingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561CD10E0783DFA6C7FC54EB /* SpeakingView.swift */; };
+		57848CD51B8356C95D977FCD /* BandUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E645E5EDA657E1E18580BC9 /* BandUpApp.swift */; };
+		5EA2FF76A57A32DCFBBD9420 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E519866CE18BFE0D64F4E73 /* AppModel.swift */; };
+		64A3B90C2CA17B427C7AEBED /* BandUpCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6B078ED83AC29BA45630C70E /* BandUpCore */; };
+		75D186F0B37682164109D273 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01338A276994A707723D6790 /* QuizView.swift */; };
+		8D53322EA1AE04649FED5A73 /* NotificationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C3ADF075715258A073DEA /* NotificationCoordinator.swift */; };
+		8E4A0763C413DAED4E8EAD69 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454CBFD9A5C63D626C503A2 /* SummaryView.swift */; };
+		992E1D36AB60DAA33E878810 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FA9DABBD037B09B3A2D8DE /* MenuBarView.swift */; };
+		B8C1335667EF7B3337CAFCAD /* SpeechRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F6DD1E69775D499A2F0E88 /* SpeechRecorder.swift */; };
+		CBE9FEDEE792E06E8D7DE761 /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382413D03D09D985E4404D80 /* WritingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01338A276994A707723D6790 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		119DF95D922BF95D589A3200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		382413D03D09D985E4404D80 /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
+		55F6DD1E69775D499A2F0E88 /* SpeechRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecorder.swift; sourceTree = "<group>"; };
+		561CD10E0783DFA6C7FC54EB /* SpeakingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakingView.swift; sourceTree = "<group>"; };
+		5A725F0A0FFA08ECE8AD63D6 /* BandUp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BandUp; path = .; sourceTree = SOURCE_ROOT; };
+		6454CBFD9A5C63D626C503A2 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		6B1C3ADF075715258A073DEA /* NotificationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCoordinator.swift; sourceTree = "<group>"; };
+		6E645E5EDA657E1E18580BC9 /* BandUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandUpApp.swift; sourceTree = "<group>"; };
+		8E519866CE18BFE0D64F4E73 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B4997F3688B0C7CA586978BF /* BandUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E3AB4C9FD0D898CCBDE8FA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D9FA9DABBD037B09B3A2D8DE /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5CF8C0BA29211625A99BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A3B90C2CA17B427C7AEBED /* BandUpCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C42B2282F7C718E30AB16D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4997F3688B0C7CA586978BF /* BandUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADA948882C9726ECAF44AEE /* BandUpApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E519866CE18BFE0D64F4E73 /* AppModel.swift */,
+				6E645E5EDA657E1E18580BC9 /* BandUpApp.swift */,
+				119DF95D922BF95D589A3200 /* Info.plist */,
+				D6E3AB4C9FD0D898CCBDE8FA /* MainView.swift */,
+				D9FA9DABBD037B09B3A2D8DE /* MenuBarView.swift */,
+				6B1C3ADF075715258A073DEA /* NotificationCoordinator.swift */,
+				01338A276994A707723D6790 /* QuizView.swift */,
+				561CD10E0783DFA6C7FC54EB /* SpeakingView.swift */,
+				55F6DD1E69775D499A2F0E88 /* SpeechRecorder.swift */,
+				6454CBFD9A5C63D626C503A2 /* SummaryView.swift */,
+				382413D03D09D985E4404D80 /* WritingView.swift */,
+			);
+			name = BandUpApp;
+			path = Sources/BandUpApp;
+			sourceTree = "<group>";
+		};
+		A867B77B78A870AEC9B9DA0B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5A725F0A0FFA08ECE8AD63D6 /* BandUp */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		FFD9BCFC62027B19B84FA1C1 = {
+			isa = PBXGroup;
+			children = (
+				3ADA948882C9726ECAF44AEE /* BandUpApp */,
+				A867B77B78A870AEC9B9DA0B /* Packages */,
+				36C42B2282F7C718E30AB16D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96D2E3C2A478F5B278524C63 /* BandUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BB23E8E5586921201F8395 /* Build configuration list for PBXNativeTarget "BandUp" */;
+			buildPhases = (
+				0D7E11C18038B2707A852973 /* Sources */,
+				BD5CF8C0BA29211625A99BD6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BandUp;
+			packageProductDependencies = (
+				6B078ED83AC29BA45630C70E /* BandUpCore */,
+			);
+			productName = BandUp;
+			productReference = B4997F3688B0C7CA586978BF /* BandUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6AD88AC64016B0FEB43D072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					96D2E3C2A478F5B278524C63 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8D3232F18AF4EC9A2046278F /* Build configuration list for PBXProject "BandUp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FFD9BCFC62027B19B84FA1C1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E2FAC7701688451E2A2B2C79 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 36C42B2282F7C718E30AB16D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96D2E3C2A478F5B278524C63 /* BandUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7E11C18038B2707A852973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA2FF76A57A32DCFBBD9420 /* AppModel.swift in Sources */,
+				57848CD51B8356C95D977FCD /* BandUpApp.swift in Sources */,
+				249D21E4E319B3EACC0D5C41 /* MainView.swift in Sources */,
+				992E1D36AB60DAA33E878810 /* MenuBarView.swift in Sources */,
+				8D53322EA1AE04649FED5A73 /* NotificationCoordinator.swift in Sources */,
+				75D186F0B37682164109D273 /* QuizView.swift in Sources */,
+				494A96D4BC0FBF430B955DFE /* SpeakingView.swift in Sources */,
+				B8C1335667EF7B3337CAFCAD /* SpeechRecorder.swift in Sources */,
+				8E4A0763C413DAED4E8EAD69 /* SummaryView.swift in Sources */,
+				CBE9FEDEE792E06E8D7DE761 /* WritingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C4E263D7661EFBE27F1DB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/BandUpApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananda.BandUp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8D3EBCF840289BD76D36BC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F21C3D917C02E32C27123F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A68006B3FDEB86B1AEE06012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/BandUpApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananda.BandUp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D3232F18AF4EC9A2046278F /* Build configuration list for PBXProject "BandUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3EBCF840289BD76D36BC75 /* Debug */,
+				9F21C3D917C02E32C27123F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91BB23E8E5586921201F8395 /* Build configuration list for PBXNativeTarget "BandUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68006B3FDEB86B1AEE06012 /* Debug */,
+				6C4E263D7661EFBE27F1DB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E2FAC7701688451E2A2B2C79 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B078ED83AC29BA45630C70E /* BandUpCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BandUpCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E6AD88AC64016B0FEB43D072 /* Project object */;
+}
